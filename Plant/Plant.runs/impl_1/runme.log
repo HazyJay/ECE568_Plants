@@ -1,0 +1,1046 @@
+
+*** Running vivado
+    with args -log MB_PL_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MB_PL_wrapper.tcl -notrace
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source MB_PL_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Emann/Desktop/MBTST/Plant/7Seg IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Emann/Desktop/MBTST/Plant/PMODS'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'Z:/xilinx/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 357.195 ; gain = 107.414
+Command: link_design -top MB_PL_wrapper -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/MB_PL_PmodALS_0_0.dcp' for cell 'MB_PL_i/ALS'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_DP_SLICE_0/MB_PL_DP_SLICE_0.dcp' for cell 'MB_PL_i/DP'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/MB_PL_PmodHYGRO_0_1.dcp' for cell 'MB_PL_i/HYGRO'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_0/MB_PL_microblaze_0_0.dcp' for cell 'MB_PL_i/MB_UC'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE_0/MB_PL_SEG_SLICE_0.dcp' for cell 'MB_PL_i/SEG0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE1_0/MB_PL_SEG_SLICE1_0.dcp' for cell 'MB_PL_i/SEG1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE2_0/MB_PL_SEG_SLICE2_0.dcp' for cell 'MB_PL_i/SEG2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE3_0/MB_PL_SEG_SLICE3_0.dcp' for cell 'MB_PL_i/SEG3'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE4_0/MB_PL_SEG_SLICE4_0.dcp' for cell 'MB_PL_i/SEG4'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE5_0/MB_PL_SEG_SLICE5_0.dcp' for cell 'MB_PL_i/SEG5'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE6_0/MB_PL_SEG_SLICE6_0.dcp' for cell 'MB_PL_i/SEG6'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SEG_SLICE7_0/MB_PL_SEG_SLICE7_0.dcp' for cell 'MB_PL_i/SEG7'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/MB_PL_PmodWIFI_0_0.dcp' for cell 'MB_PL_i/WIFI'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/MB_PL_axi_smc_0.dcp' for cell 'MB_PL_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_xlconcat_0/MB_PL_microblaze_0_xlconcat_0.dcp' for cell 'MB_PL_i/cat'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0.dcp' for cell 'MB_PL_i/clks'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0.dcp' for cell 'MB_PL_i/ether'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_gpio_0_0/MB_PL_axi_gpio_0_0.dcp' for cell 'MB_PL_i/gpio0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_axi_intc_0/MB_PL_microblaze_0_axi_intc_0.dcp' for cell 'MB_PL_i/ints'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mdm_1_0/MB_PL_mdm_1_0.dcp' for cell 'MB_PL_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mig_7series_0_0/MB_PL_mig_7series_0_0.dcp' for cell 'MB_PL_i/mig_7'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_mig_7series_0_81M_0/MB_PL_rst_mig_7series_0_81M_0.dcp' for cell 'MB_PL_i/mig_RST'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mii_to_rmii_0_0/MB_PL_mii_to_rmii_0_0.dcp' for cell 'MB_PL_i/rmii'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_SSegDriver_0_0/MB_PL_SSegDriver_0_0.dcp' for cell 'MB_PL_i/sseg'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_clk_wiz_1_100M_0/MB_PL_rst_clk_wiz_1_100M_0.dcp' for cell 'MB_PL_i/sysrst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_timer_0_0/MB_PL_axi_timer_0_0.dcp' for cell 'MB_PL_i/timer0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_uartlite_0_0/MB_PL_axi_uartlite_0_0.dcp' for cell 'MB_PL_i/uart'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_xlconstant_1_0/MB_PL_xlconstant_1_0.dcp' for cell 'MB_PL_i/zero'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_xbar_0/MB_PL_xbar_0.dcp' for cell 'MB_PL_i/axibus/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_dlmb_bram_if_cntlr_0/MB_PL_dlmb_bram_if_cntlr_0.dcp' for cell 'MB_PL_i/mb_mem/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_dlmb_v10_0/MB_PL_dlmb_v10_0.dcp' for cell 'MB_PL_i/mb_mem/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_ilmb_bram_if_cntlr_0/MB_PL_ilmb_bram_if_cntlr_0.dcp' for cell 'MB_PL_i/mb_mem/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_ilmb_v10_0/MB_PL_ilmb_v10_0.dcp' for cell 'MB_PL_i/mb_mem/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_lmb_bram_0/MB_PL_lmb_bram_0.dcp' for cell 'MB_PL_i/mb_mem/lmb_bram'
+INFO: [Netlist 29-17] Analyzing 1187 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. MB_PL_i/ether/U0/NO_LOOPBACK_GEN.INCLUDE_BUFG_GEN.RX_IBUF_INST 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. MB_PL_i/ether/U0/NO_LOOPBACK_GEN.INCLUDE_BUFG_GEN.TX_IBUF_INST 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+WARNING: [Opt 31-35] Removing redundant IBUF, MB_PL_i/clks/inst/clkin1_ibufg, from the path connected to top-level port: sys_clock 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'MB_PL_i/clks/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/.Xil/Vivado-3756-DESKTOP-5J8LVLP/dcp18/MB_PL_clk_wiz_1_0.edf:353]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'MB_PL_i/ether/phy_rx_clk' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/.Xil/Vivado-3756-DESKTOP-5J8LVLP/dcp13/MB_PL_axi_ethernetlite_0_0.edf:51318]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'MB_PL_i/ether/phy_tx_clk' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/.Xil/Vivado-3756-DESKTOP-5J8LVLP/dcp13/MB_PL_axi_ethernetlite_0_0.edf:51330]
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0_board.xdc] for cell 'MB_PL_i/ether/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0_board.xdc] for cell 'MB_PL_i/ether/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0.xdc] for cell 'MB_PL_i/ether/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0.xdc] for cell 'MB_PL_i/ether/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_gpio_0_0/MB_PL_axi_gpio_0_0_board.xdc] for cell 'MB_PL_i/gpio0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_gpio_0_0/MB_PL_axi_gpio_0_0_board.xdc] for cell 'MB_PL_i/gpio0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_gpio_0_0/MB_PL_axi_gpio_0_0.xdc] for cell 'MB_PL_i/gpio0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_gpio_0_0/MB_PL_axi_gpio_0_0.xdc] for cell 'MB_PL_i/gpio0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_1/bd_2c04_psr0_0_board.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_1/bd_2c04_psr0_0_board.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_1/bd_2c04_psr0_0.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_1/bd_2c04_psr0_0.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_2/bd_2c04_psr_aclk_0_board.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_2/bd_2c04_psr_aclk_0_board.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_2/bd_2c04_psr_aclk_0.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_2/bd_2c04_psr_aclk_0.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_3/bd_2c04_psr_aclk1_0_board.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_3/bd_2c04_psr_aclk1_0_board.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_3/bd_2c04_psr_aclk1_0.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/bd_0/ip/ip_3/bd_2c04_psr_aclk1_0.xdc] for cell 'MB_PL_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_timer_0_0/MB_PL_axi_timer_0_0.xdc] for cell 'MB_PL_i/timer0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_timer_0_0/MB_PL_axi_timer_0_0.xdc] for cell 'MB_PL_i/timer0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_uartlite_0_0/MB_PL_axi_uartlite_0_0_board.xdc] for cell 'MB_PL_i/uart/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_uartlite_0_0/MB_PL_axi_uartlite_0_0_board.xdc] for cell 'MB_PL_i/uart/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_uartlite_0_0/MB_PL_axi_uartlite_0_0.xdc] for cell 'MB_PL_i/uart/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_uartlite_0_0/MB_PL_axi_uartlite_0_0.xdc] for cell 'MB_PL_i/uart/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0_board.xdc] for cell 'MB_PL_i/clks/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0_board.xdc] for cell 'MB_PL_i/clks/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0.xdc] for cell 'MB_PL_i/clks/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1471.563 ; gain = 595.625
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_clk_wiz_1_0/MB_PL_clk_wiz_1_0.xdc] for cell 'MB_PL_i/clks/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mdm_1_0/MB_PL_mdm_1_0.xdc] for cell 'MB_PL_i/mdm_1/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mdm_1_0/MB_PL_mdm_1_0.xdc] for cell 'MB_PL_i/mdm_1/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_0/MB_PL_microblaze_0_0.xdc] for cell 'MB_PL_i/MB_UC/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_0/MB_PL_microblaze_0_0.xdc] for cell 'MB_PL_i/MB_UC/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_axi_intc_0/MB_PL_microblaze_0_axi_intc_0.xdc] for cell 'MB_PL_i/ints/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_axi_intc_0/MB_PL_microblaze_0_axi_intc_0.xdc] for cell 'MB_PL_i/ints/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mii_to_rmii_0_0/MB_PL_mii_to_rmii_0_0_board.xdc] for cell 'MB_PL_i/rmii/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mii_to_rmii_0_0/MB_PL_mii_to_rmii_0_0_board.xdc] for cell 'MB_PL_i/rmii/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_clk_wiz_1_100M_0/MB_PL_rst_clk_wiz_1_100M_0_board.xdc] for cell 'MB_PL_i/sysrst/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_clk_wiz_1_100M_0/MB_PL_rst_clk_wiz_1_100M_0_board.xdc] for cell 'MB_PL_i/sysrst/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_clk_wiz_1_100M_0/MB_PL_rst_clk_wiz_1_100M_0.xdc] for cell 'MB_PL_i/sysrst/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_clk_wiz_1_100M_0/MB_PL_rst_clk_wiz_1_100M_0.xdc] for cell 'MB_PL_i/sysrst/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_mig_7series_0_81M_0/MB_PL_rst_mig_7series_0_81M_0_board.xdc] for cell 'MB_PL_i/mig_RST/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_mig_7series_0_81M_0/MB_PL_rst_mig_7series_0_81M_0_board.xdc] for cell 'MB_PL_i/mig_RST/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_mig_7series_0_81M_0/MB_PL_rst_mig_7series_0_81M_0.xdc] for cell 'MB_PL_i/mig_RST/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_rst_mig_7series_0_81M_0/MB_PL_rst_mig_7series_0_81M_0.xdc] for cell 'MB_PL_i/mig_RST/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mig_7series_0_0/MB_PL_mig_7series_0_0/user_design/constraints/MB_PL_mig_7series_0_0.xdc] for cell 'MB_PL_i/mig_7'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_mig_7series_0_0/MB_PL_mig_7series_0_0/user_design/constraints/MB_PL_mig_7series_0_0.xdc] for cell 'MB_PL_i/mig_7'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_dlmb_v10_0/MB_PL_dlmb_v10_0.xdc] for cell 'MB_PL_i/mb_mem/dlmb_v10/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_dlmb_v10_0/MB_PL_dlmb_v10_0.xdc] for cell 'MB_PL_i/mb_mem/dlmb_v10/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_ilmb_v10_0/MB_PL_ilmb_v10_0.xdc] for cell 'MB_PL_i/mb_mem/ilmb_v10/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_ilmb_v10_0/MB_PL_ilmb_v10_0.xdc] for cell 'MB_PL_i/mb_mem/ilmb_v10/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/src/PmodHYGRO_axi_iic_0_0/PmodHYGRO_axi_iic_0_0_board.xdc] for cell 'MB_PL_i/HYGRO/inst/axi_iic_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/src/PmodHYGRO_axi_iic_0_0/PmodHYGRO_axi_iic_0_0_board.xdc] for cell 'MB_PL_i/HYGRO/inst/axi_iic_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/src/PmodHYGRO_axi_timer_0_0/PmodHYGRO_axi_timer_0_0.xdc] for cell 'MB_PL_i/HYGRO/inst/axi_timer_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/src/PmodHYGRO_axi_timer_0_0/PmodHYGRO_axi_timer_0_0.xdc] for cell 'MB_PL_i/HYGRO/inst/axi_timer_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/src/PmodHYGRO_pmod_bridge_0_0/PmodHYGRO_pmod_bridge_0_0_board.xdc] for cell 'MB_PL_i/HYGRO/inst/pmod_bridge_0/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/src/PmodHYGRO_pmod_bridge_0_0/PmodHYGRO_pmod_bridge_0_0_board.xdc] for cell 'MB_PL_i/HYGRO/inst/pmod_bridge_0/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/MB_PL_PmodHYGRO_0_1_board.xdc] for cell 'MB_PL_i/HYGRO/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodHYGRO_0_1/MB_PL_PmodHYGRO_0_1_board.xdc] for cell 'MB_PL_i/HYGRO/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_pmod_bridge_0_0/PmodALS_pmod_bridge_0_0_board.xdc] for cell 'MB_PL_i/ALS/inst/pmod_bridge_0/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_pmod_bridge_0_0/PmodALS_pmod_bridge_0_0_board.xdc] for cell 'MB_PL_i/ALS/inst/pmod_bridge_0/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_axi_quad_spi_0_0/PmodALS_axi_quad_spi_0_0_board.xdc] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_axi_quad_spi_0_0/PmodALS_axi_quad_spi_0_0_board.xdc] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_axi_quad_spi_0_0/PmodALS_axi_quad_spi_0_0.xdc] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_axi_quad_spi_0_0/PmodALS_axi_quad_spi_0_0.xdc] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/MB_PL_PmodALS_0_0_board.xdc] for cell 'MB_PL_i/ALS/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/MB_PL_PmodALS_0_0_board.xdc] for cell 'MB_PL_i/ALS/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_pmod_bridge_0_0/PmodWIFI_pmod_bridge_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/pmod_bridge_0/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_pmod_bridge_0_0/PmodWIFI_pmod_bridge_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/pmod_bridge_0/inst'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_quad_spi_0_0/PmodWIFI_axi_quad_spi_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_quad_spi_0_0/PmodWIFI_axi_quad_spi_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_quad_spi_0_0/PmodWIFI_axi_quad_spi_0_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_quad_spi_0_0/PmodWIFI_axi_quad_spi_0_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_0_0/PmodWIFI_axi_gpio_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_cs/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_0_0/PmodWIFI_axi_gpio_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_cs/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_0_0/PmodWIFI_axi_gpio_0_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_cs/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_0_0/PmodWIFI_axi_gpio_0_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_cs/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_1_0/PmodWIFI_axi_gpio_1_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_wf/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_1_0/PmodWIFI_axi_gpio_1_0_board.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_wf/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_1_0/PmodWIFI_axi_gpio_1_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_wf/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_gpio_1_0/PmodWIFI_axi_gpio_1_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_gpio_wf/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_timer_0_0/PmodWIFI_axi_timer_0_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_timer_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_timer_0_0/PmodWIFI_axi_timer_0_0.xdc] for cell 'MB_PL_i/WIFI/inst/axi_timer_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/MB_PL_PmodWIFI_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/MB_PL_PmodWIFI_0_0_board.xdc] for cell 'MB_PL_i/WIFI/inst'
+Parsing XDC File [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/IP downloads and resources/Nexys-4-DDR-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SCLIIC[0]'. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/IP downloads and resources/Nexys-4-DDR-Master.xdc:267]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/IP downloads and resources/Nexys-4-DDR-Master.xdc:267]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SDAIIC[0]'. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/IP downloads and resources/Nexys-4-DDR-Master.xdc:268]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/IP downloads and resources/Nexys-4-DDR-Master.xdc:268]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/IP downloads and resources/Nexys-4-DDR-Master.xdc]
+Parsing XDC File [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/new/eth_ref_clk.xdc]
+Finished Parsing XDC File [C:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/constrs_1/imports/new/eth_ref_clk.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_smc_0/MB_PL_axi_smc_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/MB_PL_PmodALS_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/MB_PL_PmodWIFI_0_0.dcp'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0_clocks.xdc] for cell 'MB_PL_i/ether/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_axi_ethernetlite_0_0/MB_PL_axi_ethernetlite_0_0_clocks.xdc] for cell 'MB_PL_i/ether/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_axi_intc_0/MB_PL_microblaze_0_axi_intc_0_clocks.xdc] for cell 'MB_PL_i/ints/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_axi_intc_0/MB_PL_microblaze_0_axi_intc_0_clocks.xdc] for cell 'MB_PL_i/ints/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_axi_quad_spi_0_0/PmodALS_axi_quad_spi_0_0_clocks.xdc] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodALS_0_0/src/PmodALS_axi_quad_spi_0_0/PmodALS_axi_quad_spi_0_0_clocks.xdc] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0'
+Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_quad_spi_0_0/PmodWIFI_axi_quad_spi_0_0_clocks.xdc] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_PmodWIFI_0_0/src/PmodWIFI_axi_quad_spi_0_0/PmodWIFI_axi_quad_spi_0_0_clocks.xdc] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd' of design 'design_1' [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst'
+Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [Z:/xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'MB_PL_i/ether/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'MB_PL_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/Emann/Desktop/MBTST/Plant/Plant.srcs/sources_1/bd/MB_PL/ip/MB_PL_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 586 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 25 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 88 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 34 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 381 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 35 instances
+
+69 Infos, 26 Warnings, 2 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1506.430 ; gain = 1149.234
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1506.430 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 20 inverter(s) to 95 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1d34261a9
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1506.430 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 335 cells and removed 577 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 13 load pin(s).
+Phase 2 Constant propagation | Checksum: de9798a1
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1506.430 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 306 cells and removed 1348 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1692dabd1
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1506.430 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 2456 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1692dabd1
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1506.430 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1692dabd1
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1506.430 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 1506.430 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 11231149c
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1506.430 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.311 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 30 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 6 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 10 Total Ports: 60
+Ending PowerOpt Patch Enables Task | Checksum: 14e7698d5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.331 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 14e7698d5
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 1920.090 ; gain = 413.660
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Remap
+Phase 1 Remap | Checksum: 1102ca16c
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Opt 31-389] Phase Remap created 4 cells and removed 8 cells
+Ending Logic Optimization Task | Checksum: 1102ca16c
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+92 Infos, 26 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:36 . Memory (MB): peak = 1920.090 ; gain = 413.660
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/MB_PL_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file MB_PL_wrapper_drc_opted.rpt -pb MB_PL_wrapper_drc_opted.pb -rpx MB_PL_wrapper_drc_opted.rpx
+Command: report_drc -file MB_PL_wrapper_drc_opted.rpt -pb MB_PL_wrapper_drc_opted.pb -rpx MB_PL_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/MB_PL_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: faccef35
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN2.DVD_FF'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN2.RER_FF'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN2.TEN_FF'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[0].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[0].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[1].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[1].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[2].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[2].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[3].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'MB_PL_i/ether/U0/IOFFS_GEN[3].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 646f5b31
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 111385e0b
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 111385e0b
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 111385e0b
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 127254548
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:39 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 127254548
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:39 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1a6289667
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:43 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 131518acc
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:43 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 18358ff3d
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:43 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 18358ff3d
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:43 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 18358ff3d
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:44 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 185217b9b
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:53 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 11bc20a13
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:55 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 14c7598f8
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:55 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 14c7598f8
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:57 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 14c7598f8
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:57 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 15bfd88d8
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 15bfd88d8
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.311. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 213ef89a7
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 213ef89a7
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 213ef89a7
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 213ef89a7
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1ffa23d32
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1ffa23d32
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Ending Placer Task | Checksum: 12c70bc27
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+114 Infos, 26 Warnings, 13 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:32 ; elapsed = 00:01:08 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/MB_PL_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file MB_PL_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file MB_PL_wrapper_utilization_placed.rpt -pb MB_PL_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.314 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file MB_PL_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN2.DVD_FF. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN2.RER_FF. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN2.TEN_FF. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[0].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[0].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[1].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[1].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[2].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[2].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[3].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register MB_PL_i/ether/U0/IOFFS_GEN[3].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 11 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: de776abd ConstDB: 0 ShapeSum: 4df9516a RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 67d94ab9
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:34 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Post Restoration Checksum: NetGraph: d210899 NumContArr: 5ab84220 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 67d94ab9
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:35 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 67d94ab9
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:35 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 67d94ab9
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:36 . Memory (MB): peak = 1920.090 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1de493473
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:43 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=-3.128 | THS=-780.516|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 23388d41f
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:47 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 28a85261c
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:48 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 2326ef632
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:48 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 276a5cac7
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:51 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2093
+ Number of Nodes with overlaps = 144
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 2bec70c1d
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:59 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1101835bb
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:00 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1101835bb
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:00 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 180b04f26
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:01 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: c0f0c7a2
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:01 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: c0f0c7a2
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:02 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: c0f0c7a2
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:02 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1b3d7ac57
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=-1.564 | THS=-6.831 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 137aeeb4a
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 17d8c7e95
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.91962 %
+  Global Horizontal Routing Utilization  = 4.81159 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2351013c8
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2351013c8
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:04 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 24d484e87
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:01:06 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 1ec215459
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:07 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.308  | TNS=0.000  | WHS=0.050  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1ec215459
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:07 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:07 . Memory (MB): peak = 1920.090 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+133 Infos, 37 Warnings, 13 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:39 ; elapsed = 00:01:10 . Memory (MB): peak = 1920.090 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/MB_PL_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file MB_PL_wrapper_drc_routed.rpt -pb MB_PL_wrapper_drc_routed.pb -rpx MB_PL_wrapper_drc_routed.rpx
+Command: report_drc -file MB_PL_wrapper_drc_routed.rpt -pb MB_PL_wrapper_drc_routed.pb -rpx MB_PL_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/MB_PL_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1920.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file MB_PL_wrapper_methodology_drc_routed.rpt -pb MB_PL_wrapper_methodology_drc_routed.pb -rpx MB_PL_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file MB_PL_wrapper_methodology_drc_routed.rpt -pb MB_PL_wrapper_methodology_drc_routed.pb -rpx MB_PL_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/MB_PL_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 1925.367 ; gain = 5.277
+INFO: [runtcl-4] Executing : report_power -file MB_PL_wrapper_power_routed.rpt -pb MB_PL_wrapper_power_summary_routed.pb -rpx MB_PL_wrapper_power_routed.rpx
+Command: report_power -file MB_PL_wrapper_power_routed.rpt -pb MB_PL_wrapper_power_summary_routed.pb -rpx MB_PL_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+145 Infos, 38 Warnings, 13 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 2033.547 ; gain = 108.180
+INFO: [runtcl-4] Executing : report_route_status -file MB_PL_wrapper_route_status.rpt -pb MB_PL_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file MB_PL_wrapper_timing_summary_routed.rpt -rpx MB_PL_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file MB_PL_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file MB_PL_wrapper_clock_utilization_routed.rpt
+INFO: [Memdata 28-208] The XPM instance: <MB_PL_i/ether/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <MB_PL_i/ether>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <MB_PL_i/ether/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <MB_PL_i/ether>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <MB_PL_i/ether/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <MB_PL_i/ether>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <MB_PL_i/ether/U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <MB_PL_i/ether>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/ether/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/ether/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MB_PL_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+Command: write_bitstream -force MB_PL_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer ja_pin10_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer ja_pin1_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer ja_pin2_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer ja_pin7_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer ja_pin8_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer ja_pin9_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer jc_pin10_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer jc_pin1_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer jc_pin7_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer jc_pin8_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer jc_pin9_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC REQP-1709] Clock output buffering: PLLE2_ADV connectivity violation. The signal MB_PL_i/mig_7/u_MB_PL_mig_7series_0_0_mig/u_ddr2_infrastructure/pll_clk3_out on the MB_PL_i/mig_7/u_MB_PL_mig_7series_0_0_mig/u_ddr2_infrastructure/plle2_i/CLKOUT3 pin of MB_PL_i/mig_7/u_MB_PL_mig_7series_0_0_mig/u_ddr2_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+WARNING: [DRC RTSTAT-10] No routable loads: 18 net(s) have no routable loads. The problem bus(es) and/or net(s) are MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, MB_PL_i/WIFI/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, MB_PL_i/axi_smc/inst/m00_nodes/m00_b_node/inst/s_sc_areset, MB_PL_i/axi_smc/inst/m00_nodes/m00_r_node/inst/s_sc_areset, MB_PL_i/ALS/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid... and (the first 15 of 18 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 14 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./MB_PL_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue Apr 10 00:17:20 2018. For additional details about this file, please refer to the WebTalk help file at Z:/xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+167 Infos, 69 Warnings, 13 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:42 ; elapsed = 00:00:38 . Memory (MB): peak = 2490.082 ; gain = 451.527
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 10 00:17:23 2018...

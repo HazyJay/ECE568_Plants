@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr  9 23:05:31 2018
+# Process ID: 6700
+# Current directory: C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/MB_PL_dlmb_v10_0_synth_1
+# Command line: vivado.exe -log MB_PL_dlmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MB_PL_dlmb_v10_0.tcl
+# Log file: C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/MB_PL_dlmb_v10_0_synth_1/MB_PL_dlmb_v10_0.vds
+# Journal file: C:/Users/Emann/Desktop/MBTST/Plant/Plant.runs/MB_PL_dlmb_v10_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MB_PL_dlmb_v10_0.tcl -notrace

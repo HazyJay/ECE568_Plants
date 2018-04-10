@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1522716392">
+  <File Type="PA-TCL" Name="SSegDriver.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="SSegDriver_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="SSegDriver_reports.tcl"/>
+  <File Type="RDS-RDS" Name="SSegDriver.vds"/>
+  <File Type="RDS-UTIL" Name="SSegDriver_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="SSegDriver_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="SSegDriver.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SSegDriver_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SSegDriver_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test sandbocx/UMD_CISC24_JH_RF/SevenSeg.vhd"/>
+        <Attr Name="ImportTime" Val="1486160120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/umd_cisc24_jh_rf/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SSegDriver"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

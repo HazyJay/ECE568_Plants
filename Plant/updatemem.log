@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Tue Apr 10 00:48:53 2018
+# Process ID: 14692
+# Current directory: c:/Users/Emann/Desktop/MBTST/Plant
+# Command line: updatemem.exe -mode batch -source Z:/xilinx/SDK/2017.4/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper_hw_platform_0/MB_PL_wrapper.mmi -data Z:/xilinx/SDK/2017.4/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc MB_PL_i/MB_UC -bit C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper_hw_platform_0/MB_PL_wrapper.bit -out C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper_hw_platform_0/download.bit -force
+# Log file: c:/Users/Emann/Desktop/MBTST/Plant/updatemem.log
+# Journal file: c:/Users/Emann/Desktop/MBTST/Plant\updatemem.jou
+#-----------------------------------------------------------
+source Z:/xilinx/SDK/2017.4/scripts/updatemem/main.tcl -notrace
+ Loading bitfile C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper_hw_platform_0/MB_PL_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 519.797 ; gain = 461.102
+INFO: [Common 17-206] Exiting updatemem at Tue Apr 10 00:49:09 2018...

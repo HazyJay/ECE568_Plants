@@ -1,0 +1,292 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr  2 20:46:34 2018
+# Process ID: 6440
+# Current directory: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.runs/synth_1
+# Command line: vivado.exe -log SSegDriver.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SSegDriver.tcl
+# Log file: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.runs/synth_1/SSegDriver.vds
+# Journal file: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SSegDriver.tcl -notrace
+Command: synth_design -top SSegDriver -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2900 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 357.266 ; gain = 99.371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SSegDriver' [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:58]
+INFO: [Synth 8-226] default block is never used [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:101]
+WARNING: [Synth 8-614] signal 'clk240hz' is read in the process but is not in the sensitivity list [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'SSegDriver' (1#1) [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:41]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 409.395 ; gain = 151.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 409.395 ; gain = 151.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 409.395 ; gain = 151.500
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "clk240hz" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 409.395 ; gain = 151.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SSegDriver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "clk240hz" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 563.949 ; gain = 306.055
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 563.949 ; gain = 306.055
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     2|
+|4     |LUT2   |     6|
+|5     |LUT3   |     3|
+|6     |LUT4   |    11|
+|7     |LUT5   |     1|
+|8     |LUT6   |    23|
+|9     |MUXF7  |     1|
+|10    |FDCE   |    18|
+|11    |FDRE   |    10|
+|12    |FDSE   |     6|
+|13    |IBUF   |    26|
+|14    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   128|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 564.719 ; gain = 306.824
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 31 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 665.324 ; gain = 419.551
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.runs/synth_1/SSegDriver.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SSegDriver_utilization_synth.rpt -pb SSegDriver_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 665.324 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  2 20:47:01 2018...

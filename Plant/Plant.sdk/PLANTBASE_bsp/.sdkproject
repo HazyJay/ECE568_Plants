@@ -1,0 +1,4 @@
+THIRPARTY=false
+HW_PROJECT_REFERENCE=MB_PL_wrapper_hw_platform_0
+PROCESSOR=MB_UC
+MSS_FILE=system.mss

@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr  2 19:12:40 2018
+# Process ID: 9300
+# Current directory: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12752 C:\Users\Emann\Desktop\freertos-microblaze-nexys4ddr-master\7Seg IP\7Seg IP.xpr
+# Log file: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/vivado.log
+# Journal file: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Emann/Desktop/IP downloads and resources'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/Emann/Desktop/IP downloads and resources/vivado-library'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'Z:/xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf/component.xml}
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf'
+launch_runs synth_1 -jobs 2
+[Mon Apr  2 20:46:32 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 31 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1283.477 ; gain = 400.633
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: SSegDriver
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1804.168 ; gain = 490.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SSegDriver' [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:58]
+INFO: [Synth 8-226] default block is never used [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:101]
+WARNING: [Synth 8-614] signal 'clk240hz' is read in the process but is not in the sensitivity list [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'SSegDriver' (1#1) [C:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/UMD_CISC24_JH_RF/SevenSeg.vhd:41]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_4[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_5[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_6[0]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[3]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[2]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[1]
+WARNING: [Synth 8-3331] design SSegDriver has unconnected port SEG_7[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1867.715 ; gain = 554.531
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1875.121 ; gain = 561.938
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2004.117 ; gain = 690.934
+7 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2004.117 ; gain = 690.934
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf'
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Emann/Desktop/freertos-microblaze-nexys4ddr-master/7Seg IP/7Seg IP.srcs/sources_1/imports/umd_cisc24_jh_rf'
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  2 22:06:25 2018...

@@ -1,0 +1,66 @@
+00:30:50 INFO  : Registering command handlers for SDK TCF services
+00:30:52 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Emann\Desktop\MBTST\Plant\Plant.sdk\temp_xsdb_launch_script.tcl
+00:30:56 INFO  : XSCT server has started successfully.
+00:31:00 INFO  : Processing command line option -hwspec C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper.hdf.
+00:31:00 INFO  : Successfully done setting XSCT server connection channel  
+00:31:01 INFO  : Successfully done setting SDK workspace  
+00:39:06 INFO  : Refreshed build settings on project PLANTBASE
+00:49:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:49:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A" && level==0} -index 0' command is executed.
+00:49:15 INFO  : FPGA configured successfully with bitstream "C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/MB_PL_wrapper_hw_platform_0/download.bit"
+00:57:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A" && level==0} -index 0' command is executed.
+00:57:29 INFO  : 'fpga -state' command is executed.
+00:57:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:57:30 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6E858A' is selected.
+00:57:30 INFO  : 'jtag frequency' command is executed.
+00:57:30 INFO  : Context for processor 'MB_UC' is selected.
+00:57:30 INFO  : Processor reset is completed for 'MB_UC'.
+00:57:30 INFO  : Context for processor 'MB_UC' is selected.
+00:57:31 INFO  : The application 'C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/PLANTBASE/Debug/PLANTBASE.elf' is downloaded to processor 'MB_UC'.
+00:57:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A"} -index 0
+dow C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/PLANTBASE/Debug/PLANTBASE.elf
+----------------End of Script----------------
+
+00:57:32 INFO  : Memory regions updated for context MicroBlaze #0
+00:57:32 INFO  : Memory regions updated for context MicroBlaze #0
+00:57:32 INFO  : Context for processor 'MB_UC' is selected.
+00:57:32 INFO  : 'con' command is executed.
+00:57:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A"} -index 0
+con
+----------------End of Script----------------
+
+00:57:32 INFO  : Launch script is exported to file 'C:\Users\Emann\Desktop\MBTST\Plant\Plant.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_plantbase.elf_on_local.tcl'
+00:57:54 INFO  : Disconnected from the channel tcfchan#1.
+00:58:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A" && level==0} -index 0' command is executed.
+00:58:27 INFO  : 'fpga -state' command is executed.
+00:58:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:58:27 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6E858A' is selected.
+00:58:27 INFO  : 'jtag frequency' command is executed.
+00:58:27 INFO  : Context for processor 'MB_UC' is selected.
+00:58:27 INFO  : Processor reset is completed for 'MB_UC'.
+00:58:27 INFO  : Context for processor 'MB_UC' is selected.
+00:58:28 INFO  : The application 'C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/PLANTBASE/Debug/PLANTBASE.elf' is downloaded to processor 'MB_UC'.
+00:58:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A"} -index 0
+dow C:/Users/Emann/Desktop/MBTST/Plant/Plant.sdk/PLANTBASE/Debug/PLANTBASE.elf
+----------------End of Script----------------
+
+00:58:28 INFO  : Memory regions updated for context MicroBlaze #0
+00:58:28 INFO  : Memory regions updated for context MicroBlaze #0
+00:58:28 INFO  : Context for processor 'MB_UC' is selected.
+00:58:28 INFO  : 'con' command is executed.
+00:58:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A6E858A"} -index 0
+con
+----------------End of Script----------------
+
+00:58:29 INFO  : Launch script is exported to file 'C:\Users\Emann\Desktop\MBTST\Plant\Plant.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_plantbase.elf_on_local.tcl'
+01:03:19 INFO  : Disconnected from the channel tcfchan#2.

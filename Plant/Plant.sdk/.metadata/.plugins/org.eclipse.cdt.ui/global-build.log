@@ -1,0 +1,2107 @@
+00:32:27 **** Build of project PLANTBASE_bsp ****
+make -k all 
+"Running Make include in MB_UC/libsrc/bram_v4_2/src"
+make -C MB_UC/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/cpu_v2_6/src"
+make -C MB_UC/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/emaclite_v4_3/src"
+make -C MB_UC/libsrc/emaclite_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/freertos901_xilinx_v1_1/src"
+make -C MB_UC/libsrc/freertos901_xilinx_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"include"
+"Running Make include in MB_UC/libsrc/gpio_v4_3/src"
+make -C MB_UC/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/intc_v3_7/src"
+make -C MB_UC/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/PmodALS_v1_0/src"
+make -C MB_UC/libsrc/PmodALS_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/PmodHYGRO_v1_0/src"
+make -C MB_UC/libsrc/PmodHYGRO_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/PmodWIFI_v1_0/src"
+make -C MB_UC/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/tmrctr_v4_4/src"
+make -C MB_UC/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in MB_UC/libsrc/uartlite_v3_2/src"
+make -C MB_UC/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in MB_UC/libsrc/bram_v4_2/src"
+make -C MB_UC/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in MB_UC/libsrc/cpu_v2_6/src"
+make -C MB_UC/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in MB_UC/libsrc/emaclite_v4_3/src"
+make -C MB_UC/libsrc/emaclite_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling emaclite"
+"Running Make libs in MB_UC/libsrc/freertos901_xilinx_v1_1/src"
+make -C MB_UC/libsrc/freertos901_xilinx_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Compiling FreeRTOS"
+mb-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in MB_UC/libsrc/gpio_v4_3/src"
+make -C MB_UC/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in MB_UC/libsrc/intc_v3_7/src"
+make -C MB_UC/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in MB_UC/libsrc/PmodALS_v1_0/src"
+make -C MB_UC/libsrc/PmodALS_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodGPS..."
+"Running Make libs in MB_UC/libsrc/PmodHYGRO_v1_0/src"
+make -C MB_UC/libsrc/PmodHYGRO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodHYGRO..."
+In file included from xiic.h:311:0,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+PmodHYGRO.c: In function 'HYGRO_IICInit':
+xiic_l.h:300:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:317:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodHYGRO.c:172:2: note: in expansion of macro 'XIic_IntrGlobalDisable'
+  XIic_IntrGlobalDisable(IicInstancePtr);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:98:0,
+                 from xiic.h:311,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+PmodHYGRO.c: In function 'StatusHandler':
+PmodHYGRO.c:270:38: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+                                      ^~~~~~~~~~~
+At top level:
+PmodHYGRO.c:270:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+             ^~~~~~~~~~~~~
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+"Running Make libs in MB_UC/libsrc/PmodWIFI_v1_0/src"
+make -C MB_UC/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodWIFI..."
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+DEIPcK/utility/IPStack.c:58:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4BROADCAST  = {{0xFF, 0xFF, 0xFF, 0xFF}};
+                              ^
+DEIPcK/utility/IPStack.c:58:30: note: (near initialization for 'IPv4BROADCAST.<anonymous>')
+DEIPcK/utility/IPStack.c:58:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4BROADCAST  = {{0xFF, 0xFF, 0xFF, 0xFF}};
+                             ^
+DEIPcK/utility/IPStack.c:58:29: note: (near initialization for 'IPv4BROADCAST')
+DEIPcK/utility/IPStack.c:59:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4NONE       = {{0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                              ^
+DEIPcK/utility/IPStack.c:59:30: note: (near initialization for 'IPv4NONE.<anonymous>')
+DEIPcK/utility/IPStack.c:59:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4NONE       = {{0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                             ^
+DEIPcK/utility/IPStack.c:59:29: note: (near initialization for 'IPv4NONE')
+DEIPcK/utility/IPStack.c:60:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv6 IPv6NONE       = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                              ^
+DEIPcK/utility/IPStack.c:60:30: note: (near initialization for 'IPv6NONE.<anonymous>')
+DEIPcK/utility/IPStack.c:60:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv6 IPv6NONE       = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                             ^
+DEIPcK/utility/IPStack.c:60:29: note: (near initialization for 'IPv6NONE')
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+DEIPcK/utility/LinkLayer.c:57:33: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACBROADCAST   = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}};    // RFC 894
+                                 ^
+DEIPcK/utility/LinkLayer.c:57:33: note: (near initialization for 'MACBROADCAST.<anonymous>')
+DEIPcK/utility/LinkLayer.c:57:32: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACBROADCAST   = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}};    // RFC 894
+                                ^
+DEIPcK/utility/LinkLayer.c:57:32: note: (near initialization for 'MACBROADCAST')
+DEIPcK/utility/LinkLayer.c:58:33: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACNONE        = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC 894
+                                 ^
+DEIPcK/utility/LinkLayer.c:58:33: note: (near initialization for 'MACNONE.<anonymous>')
+DEIPcK/utility/LinkLayer.c:58:32: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACNONE        = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC 894
+                                ^
+DEIPcK/utility/LinkLayer.c:58:32: note: (near initialization for 'MACNONE')
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+MRF24G/MRF24GAdaptor.c:434:10: warning: missing braces around initializer [-Wmissing-braces]
+         {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}},
+          ^
+MRF24G/MRF24GAdaptor.c:434:10: note: (near initialization for 'wfmrf24.adpMRF24G.mac.<anonymous>')
+MRF24G/MRF24GAdaptor.c:434:9: warning: missing braces around initializer [-Wmissing-braces]
+         {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}},
+         ^
+MRF24G/MRF24GAdaptor.c:434:9: note: (near initialization for 'wfmrf24.adpMRF24G.mac')
+MRF24G/MRF24GAdaptor.c:428:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:428:5: note: (near initialization for 'wfmrf24.adpMRF24G')
+MRF24G/MRF24GAdaptor.c:446:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:446:5: note: (near initialization for 'wfmrf24.wfMRF24G')
+MRF24G/MRF24GAdaptor.c:454:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:454:5: note: (near initialization for 'wfmrf24.funcMRF24G')
+MRF24G/MRF24GAdaptor.c:509:9: warning: missing braces around initializer [-Wmissing-braces]
+         {NULL, NULL},
+         ^
+MRF24G/MRF24GAdaptor.c:509:9: note: (near initialization for 'wfmrf24.priv.ffptRead')
+MRF24G/MRF24GAdaptor.c:510:9: warning: missing braces around initializer [-Wmissing-braces]
+         {NULL, NULL},
+         ^
+MRF24G/MRF24GAdaptor.c:510:9: note: (near initialization for 'wfmrf24.priv.ffptWrite')
+MRF24G/MRF24GAdaptor.c:508:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:508:5: note: (near initialization for 'wfmrf24.priv')
+MRF24G/MRF24GAdaptor.c:427:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+MRF24G/MRF24GAdaptor.c:427:1: note: (near initialization for 'wfmrf24')
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+"Running Make libs in MB_UC/libsrc/tmrctr_v4_4/src"
+make -C MB_UC/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in MB_UC/libsrc/uartlite_v3_2/src"
+make -C MB_UC/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+00:34:21 **** Build of configuration Debug for project PLANTBASE ****
+make all 
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -I../../PLANTBASE_bsp/MB_UC/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: PLANTBASE.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PLANTBASE_bsp/MB_UC/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PLANTBASE.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: PLANTBASE.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PLANTBASE.elf  |tee "PLANTBASE.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38964	   1480	  69588	 110032	  1add0	PLANTBASE.elf
+'Finished building: PLANTBASE.elf.size'
+' '
+00:39:07 **** Auto Build of project PLANTBASE_bsp ****
+make -k all 
+"Running Make include in MB_UC/libsrc/bram_v4_2/src"
+make -C MB_UC/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/cpu_v2_6/src"
+make -C MB_UC/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/emaclite_v4_3/src"
+make -C MB_UC/libsrc/emaclite_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/freertos901_xilinx_v1_1/src"
+make -C MB_UC/libsrc/freertos901_xilinx_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"include"
+"Running Make include in MB_UC/libsrc/gpio_v4_3/src"
+make -C MB_UC/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/intc_v3_7/src"
+make -C MB_UC/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/PmodALS_v1_0/src"
+make -C MB_UC/libsrc/PmodALS_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/PmodHYGRO_v1_0/src"
+make -C MB_UC/libsrc/PmodHYGRO_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/PmodWIFI_v1_0/src"
+make -C MB_UC/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/tmrctr_v4_4/src"
+make -C MB_UC/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/uartlite_v3_2/src"
+make -C MB_UC/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make libs in MB_UC/libsrc/bram_v4_2/src"
+make -C MB_UC/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in MB_UC/libsrc/cpu_v2_6/src"
+make -C MB_UC/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling cpu"
+"Running Make libs in MB_UC/libsrc/emaclite_v4_3/src"
+make -C MB_UC/libsrc/emaclite_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling emaclite"
+"Running Make libs in MB_UC/libsrc/freertos901_xilinx_v1_1/src"
+make -C MB_UC/libsrc/freertos901_xilinx_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling standalone";
+"Compiling FreeRTOS"
+mb-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in MB_UC/libsrc/gpio_v4_3/src"
+make -C MB_UC/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling gpio"
+"Running Make libs in MB_UC/libsrc/intc_v3_7/src"
+make -C MB_UC/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling intc"
+"Running Make libs in MB_UC/libsrc/PmodALS_v1_0/src"
+make -C MB_UC/libsrc/PmodALS_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling PmodGPS..."
+"Running Make libs in MB_UC/libsrc/PmodHYGRO_v1_0/src"
+make -C MB_UC/libsrc/PmodHYGRO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling PmodHYGRO..."
+In file included from xiic.h:311:0,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+PmodHYGRO.c: In function 'HYGRO_IICInit':
+xiic_l.h:300:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:317:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodHYGRO.c:172:2: note: in expansion of macro 'XIic_IntrGlobalDisable'
+  XIic_IntrGlobalDisable(IicInstancePtr);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:98:0,
+                 from xiic.h:311,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+PmodHYGRO.c: In function 'StatusHandler':
+PmodHYGRO.c:270:38: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+                                      ^~~~~~~~~~~
+At top level:
+PmodHYGRO.c:270:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+             ^~~~~~~~~~~~~
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+"Running Make libs in MB_UC/libsrc/PmodWIFI_v1_0/src"
+make -C MB_UC/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling PmodWIFI..."
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+DEIPcK/utility/IPStack.c:58:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4BROADCAST  = {{0xFF, 0xFF, 0xFF, 0xFF}};
+                              ^
+DEIPcK/utility/IPStack.c:58:30: note: (near initialization for 'IPv4BROADCAST.<anonymous>')
+DEIPcK/utility/IPStack.c:58:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4BROADCAST  = {{0xFF, 0xFF, 0xFF, 0xFF}};
+                             ^
+DEIPcK/utility/IPStack.c:58:29: note: (near initialization for 'IPv4BROADCAST')
+DEIPcK/utility/IPStack.c:59:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4NONE       = {{0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                              ^
+DEIPcK/utility/IPStack.c:59:30: note: (near initialization for 'IPv4NONE.<anonymous>')
+DEIPcK/utility/IPStack.c:59:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4NONE       = {{0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                             ^
+DEIPcK/utility/IPStack.c:59:29: note: (near initialization for 'IPv4NONE')
+DEIPcK/utility/IPStack.c:60:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv6 IPv6NONE       = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                              ^
+DEIPcK/utility/IPStack.c:60:30: note: (near initialization for 'IPv6NONE.<anonymous>')
+DEIPcK/utility/IPStack.c:60:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv6 IPv6NONE       = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                             ^
+DEIPcK/utility/IPStack.c:60:29: note: (near initialization for 'IPv6NONE')
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+DEIPcK/utility/LinkLayer.c:57:33: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACBROADCAST   = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}};    // RFC 894
+                                 ^
+DEIPcK/utility/LinkLayer.c:57:33: note: (near initialization for 'MACBROADCAST.<anonymous>')
+DEIPcK/utility/LinkLayer.c:57:32: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACBROADCAST   = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}};    // RFC 894
+                                ^
+DEIPcK/utility/LinkLayer.c:57:32: note: (near initialization for 'MACBROADCAST')
+DEIPcK/utility/LinkLayer.c:58:33: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACNONE        = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC 894
+                                 ^
+DEIPcK/utility/LinkLayer.c:58:33: note: (near initialization for 'MACNONE.<anonymous>')
+DEIPcK/utility/LinkLayer.c:58:32: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACNONE        = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC 894
+                                ^
+DEIPcK/utility/LinkLayer.c:58:32: note: (near initialization for 'MACNONE')
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+MRF24G/MRF24GAdaptor.c:434:10: warning: missing braces around initializer [-Wmissing-braces]
+         {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}},
+          ^
+MRF24G/MRF24GAdaptor.c:434:10: note: (near initialization for 'wfmrf24.adpMRF24G.mac.<anonymous>')
+MRF24G/MRF24GAdaptor.c:434:9: warning: missing braces around initializer [-Wmissing-braces]
+         {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}},
+         ^
+MRF24G/MRF24GAdaptor.c:434:9: note: (near initialization for 'wfmrf24.adpMRF24G.mac')
+MRF24G/MRF24GAdaptor.c:428:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:428:5: note: (near initialization for 'wfmrf24.adpMRF24G')
+MRF24G/MRF24GAdaptor.c:446:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:446:5: note: (near initialization for 'wfmrf24.wfMRF24G')
+MRF24G/MRF24GAdaptor.c:454:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:454:5: note: (near initialization for 'wfmrf24.funcMRF24G')
+MRF24G/MRF24GAdaptor.c:509:9: warning: missing braces around initializer [-Wmissing-braces]
+         {NULL, NULL},
+         ^
+MRF24G/MRF24GAdaptor.c:509:9: note: (near initialization for 'wfmrf24.priv.ffptRead')
+MRF24G/MRF24GAdaptor.c:510:9: warning: missing braces around initializer [-Wmissing-braces]
+         {NULL, NULL},
+         ^
+MRF24G/MRF24GAdaptor.c:510:9: note: (near initialization for 'wfmrf24.priv.ffptWrite')
+MRF24G/MRF24GAdaptor.c:508:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:508:5: note: (near initialization for 'wfmrf24.priv')
+MRF24G/MRF24GAdaptor.c:427:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+MRF24G/MRF24GAdaptor.c:427:1: note: (near initialization for 'wfmrf24')
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+"Running Make libs in MB_UC/libsrc/tmrctr_v4_4/src"
+make -C MB_UC/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling tmrctr"
+"Running Make libs in MB_UC/libsrc/uartlite_v3_2/src"
+make -C MB_UC/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling uartlite"
+'Finished building libraries'
+00:40:56 **** Auto Build of configuration Debug for project PLANTBASE ****
+make all 
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -I../../PLANTBASE_bsp/MB_UC/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'prvHygroPoll':
+../src/freertos_hello_world.c:77:23: error: 'XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR' undeclared (first use in this function)
+  HYGRO_begin(&xHYGRO, XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR, 0x40,  XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR, XPAR_PMODHYGRO_0_DEVICE_ID, XPAR_CPU_M_AXI_DP_FREQ_HZ ); //setup of hygro with proper addresses etc
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:77:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c:77:70: error: 'XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR' undeclared (first use in this function)
+  HYGRO_begin(&xHYGRO, XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR, 0x40,  XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR, XPAR_PMODHYGRO_0_DEVICE_ID, XPAR_CPU_M_AXI_DP_FREQ_HZ ); //setup of hygro with proper addresses etc
+                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:77:110: error: 'XPAR_PMODHYGRO_0_DEVICE_ID' undeclared (first use in this function)
+  HYGRO_begin(&xHYGRO, XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR, 0x40,  XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR, XPAR_PMODHYGRO_0_DEVICE_ID, XPAR_CPU_M_AXI_DP_FREQ_HZ ); //setup of hygro with proper addresses etc
+                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:79:13: warning: variable 'Q2stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+             ^~~~~~
+../src/freertos_hello_world.c:79:6: warning: variable 'Q1stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+      ^~~~~~
+At top level:
+../src/freertos_hello_world.c:197:13: warning: 'vPrintTaskStatus' defined but not used [-Wunused-function]
+ static void vPrintTaskStatus(TaskStatus_t TS)
+             ^~~~~~~~~~~~~~~~
+make: *** [src/freertos_hello_world.o] Error 1
+00:42:16 **** Auto Build of project PLANTBASE_bsp ****
+make -k all 
+"Running Make include in MB_UC/libsrc/bram_v4_2/src"
+make -C MB_UC/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/cpu_v2_6/src"
+make -C MB_UC/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/emaclite_v4_3/src"
+make -C MB_UC/libsrc/emaclite_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/freertos901_xilinx_v1_1/src"
+make -C MB_UC/libsrc/freertos901_xilinx_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"include"
+"Running Make include in MB_UC/libsrc/gpio_v4_3/src"
+make -C MB_UC/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/intc_v3_7/src"
+make -C MB_UC/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/PmodALS_v1_0/src"
+make -C MB_UC/libsrc/PmodALS_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/PmodHYGRO_v1_0/src"
+make -C MB_UC/libsrc/PmodHYGRO_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/PmodWIFI_v1_0/src"
+make -C MB_UC/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/tmrctr_v4_4/src"
+make -C MB_UC/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make include in MB_UC/libsrc/uartlite_v3_2/src"
+make -C MB_UC/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Running Make libs in MB_UC/libsrc/bram_v4_2/src"
+make -C MB_UC/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling bram"
+"Running Make libs in MB_UC/libsrc/cpu_v2_6/src"
+make -C MB_UC/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling cpu"
+"Running Make libs in MB_UC/libsrc/emaclite_v4_3/src"
+make -C MB_UC/libsrc/emaclite_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling emaclite"
+"Running Make libs in MB_UC/libsrc/freertos901_xilinx_v1_1/src"
+make -C MB_UC/libsrc/freertos901_xilinx_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling standalone";
+"Compiling FreeRTOS"
+"Running Make libs in MB_UC/libsrc/gpio_v4_3/src"
+make -C MB_UC/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling gpio"
+"Running Make libs in MB_UC/libsrc/intc_v3_7/src"
+make -C MB_UC/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling intc"
+"Running Make libs in MB_UC/libsrc/PmodALS_v1_0/src"
+make -C MB_UC/libsrc/PmodALS_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling PmodGPS..."
+"Running Make libs in MB_UC/libsrc/PmodHYGRO_v1_0/src"
+make -C MB_UC/libsrc/PmodHYGRO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling PmodHYGRO..."
+In file included from xiic.h:311:0,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+PmodHYGRO.c: In function 'HYGRO_IICInit':
+xiic_l.h:300:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:317:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodHYGRO.c:172:2: note: in expansion of macro 'XIic_IntrGlobalDisable'
+  XIic_IntrGlobalDisable(IicInstancePtr);
+  ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:98:0,
+                 from xiic.h:311,
+                 from PmodHYGRO.h:29,
+                 from PmodHYGRO.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+PmodHYGRO.c: In function 'StatusHandler':
+PmodHYGRO.c:270:38: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+                                      ^~~~~~~~~~~
+At top level:
+PmodHYGRO.c:270:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(PmodHYGRO *InstancePtr) {
+             ^~~~~~~~~~~~~
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+"Running Make libs in MB_UC/libsrc/PmodWIFI_v1_0/src"
+make -C MB_UC/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling PmodWIFI..."
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+DEIPcK/utility/IPStack.c:58:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4BROADCAST  = {{0xFF, 0xFF, 0xFF, 0xFF}};
+                              ^
+DEIPcK/utility/IPStack.c:58:30: note: (near initialization for 'IPv4BROADCAST.<anonymous>')
+DEIPcK/utility/IPStack.c:58:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4BROADCAST  = {{0xFF, 0xFF, 0xFF, 0xFF}};
+                             ^
+DEIPcK/utility/IPStack.c:58:29: note: (near initialization for 'IPv4BROADCAST')
+DEIPcK/utility/IPStack.c:59:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4NONE       = {{0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                              ^
+DEIPcK/utility/IPStack.c:59:30: note: (near initialization for 'IPv4NONE.<anonymous>')
+DEIPcK/utility/IPStack.c:59:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv4 IPv4NONE       = {{0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                             ^
+DEIPcK/utility/IPStack.c:59:29: note: (near initialization for 'IPv4NONE')
+DEIPcK/utility/IPStack.c:60:30: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv6 IPv6NONE       = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                              ^
+DEIPcK/utility/IPStack.c:60:30: note: (near initialization for 'IPv6NONE.<anonymous>')
+DEIPcK/utility/IPStack.c:60:29: warning: missing braces around initializer [-Wmissing-braces]
+ const IPv6 IPv6NONE       = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC xxx
+                             ^
+DEIPcK/utility/IPStack.c:60:29: note: (near initialization for 'IPv6NONE')
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+DEIPcK/utility/LinkLayer.c:57:33: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACBROADCAST   = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}};    // RFC 894
+                                 ^
+DEIPcK/utility/LinkLayer.c:57:33: note: (near initialization for 'MACBROADCAST.<anonymous>')
+DEIPcK/utility/LinkLayer.c:57:32: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACBROADCAST   = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}};    // RFC 894
+                                ^
+DEIPcK/utility/LinkLayer.c:57:32: note: (near initialization for 'MACBROADCAST')
+DEIPcK/utility/LinkLayer.c:58:33: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACNONE        = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC 894
+                                 ^
+DEIPcK/utility/LinkLayer.c:58:33: note: (near initialization for 'MACNONE.<anonymous>')
+DEIPcK/utility/LinkLayer.c:58:32: warning: missing braces around initializer [-Wmissing-braces]
+ const MACADDR MACNONE        = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};    // RFC 894
+                                ^
+DEIPcK/utility/LinkLayer.c:58:32: note: (near initialization for 'MACNONE')
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+MRF24G/MRF24GAdaptor.c:434:10: warning: missing braces around initializer [-Wmissing-braces]
+         {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}},
+          ^
+MRF24G/MRF24GAdaptor.c:434:10: note: (near initialization for 'wfmrf24.adpMRF24G.mac.<anonymous>')
+MRF24G/MRF24GAdaptor.c:434:9: warning: missing braces around initializer [-Wmissing-braces]
+         {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00}},
+         ^
+MRF24G/MRF24GAdaptor.c:434:9: note: (near initialization for 'wfmrf24.adpMRF24G.mac')
+MRF24G/MRF24GAdaptor.c:428:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:428:5: note: (near initialization for 'wfmrf24.adpMRF24G')
+MRF24G/MRF24GAdaptor.c:446:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:446:5: note: (near initialization for 'wfmrf24.wfMRF24G')
+MRF24G/MRF24GAdaptor.c:454:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:454:5: note: (near initialization for 'wfmrf24.funcMRF24G')
+MRF24G/MRF24GAdaptor.c:509:9: warning: missing braces around initializer [-Wmissing-braces]
+         {NULL, NULL},
+         ^
+MRF24G/MRF24GAdaptor.c:509:9: note: (near initialization for 'wfmrf24.priv.ffptRead')
+MRF24G/MRF24GAdaptor.c:510:9: warning: missing braces around initializer [-Wmissing-braces]
+         {NULL, NULL},
+         ^
+MRF24G/MRF24GAdaptor.c:510:9: note: (near initialization for 'wfmrf24.priv.ffptWrite')
+MRF24G/MRF24GAdaptor.c:508:5: warning: missing braces around initializer [-Wmissing-braces]
+     {
+     ^
+MRF24G/MRF24GAdaptor.c:508:5: note: (near initialization for 'wfmrf24.priv')
+MRF24G/MRF24GAdaptor.c:427:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+MRF24G/MRF24GAdaptor.c:427:1: note: (near initialization for 'wfmrf24')
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+../../../include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+"Running Make libs in MB_UC/libsrc/tmrctr_v4_4/src"
+make -C MB_UC/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling tmrctr"
+"Running Make libs in MB_UC/libsrc/uartlite_v3_2/src"
+make -C MB_UC/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
+"Compiling uartlite"
+'Finished building libraries'
+00:44:32 **** Clean-only build of configuration Debug for project PLANTBASE ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o  ./src/freertos_hello_world.d  PLANTBASE.elf.size  PLANTBASE.elf
+' '
+00:44:32 **** Auto Build of configuration Debug for project PLANTBASE ****
+make all 
+'Building file: ../src/PLANTBASE.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/PLANTBASE.o" -I../../PLANTBASE_bsp/MB_UC/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/PLANTBASE.d" -MT"src/PLANTBASE.o" -o "src/PLANTBASE.o" "../src/PLANTBASE.c"
+../src/PLANTBASE.c: In function 'prvHygroPoll':
+../src/PLANTBASE.c:77:23: error: 'XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR' undeclared (first use in this function)
+  HYGRO_begin(&xHYGRO, XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR, 0x40,  XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR, XPAR_PMODHYGRO_0_DEVICE_ID, XPAR_CPU_M_AXI_DP_FREQ_HZ ); //setup of hygro with proper addresses etc
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PLANTBASE.c:77:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/PLANTBASE.c:77:70: error: 'XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR' undeclared (first use in this function)
+  HYGRO_begin(&xHYGRO, XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR, 0x40,  XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR, XPAR_PMODHYGRO_0_DEVICE_ID, XPAR_CPU_M_AXI_DP_FREQ_HZ ); //setup of hygro with proper addresses etc
+                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PLANTBASE.c:77:110: error: 'XPAR_PMODHYGRO_0_DEVICE_ID' undeclared (first use in this function)
+  HYGRO_begin(&xHYGRO, XPAR_PMODHYGRO_0_AXI_LITE_IIC_BASEADDR, 0x40,  XPAR_PMODHYGRO_0_AXI_LITE_TMR_BASEADDR, XPAR_PMODHYGRO_0_DEVICE_ID, XPAR_CPU_M_AXI_DP_FREQ_HZ ); //setup of hygro with proper addresses etc
+                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PLANTBASE.c:79:13: warning: variable 'Q2stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+             ^~~~~~
+../src/PLANTBASE.c:79:6: warning: variable 'Q1stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+      ^~~~~~
+At top level:
+../src/PLANTBASE.c:197:13: warning: 'vPrintTaskStatus' defined but not used [-Wunused-function]
+ static void vPrintTaskStatus(TaskStatus_t TS)
+             ^~~~~~~~~~~~~~~~
+make: *** [src/PLANTBASE.o] Error 1
+00:45:21 **** Auto Build of configuration Debug for project PLANTBASE ****
+make all 
+'Building file: ../src/PLANTBASE.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/PLANTBASE.o" -I../../PLANTBASE_bsp/MB_UC/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/PLANTBASE.d" -MT"src/PLANTBASE.o" -o "src/PLANTBASE.o" "../src/PLANTBASE.c"
+../src/PLANTBASE.c: In function 'prvHygroPoll':
+../src/PLANTBASE.c:79:13: warning: variable 'Q2stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+             ^~~~~~
+../src/PLANTBASE.c:79:6: warning: variable 'Q1stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+      ^~~~~~
+At top level:
+../src/PLANTBASE.c:197:13: warning: 'vPrintTaskStatus' defined but not used [-Wunused-function]
+ static void vPrintTaskStatus(TaskStatus_t TS)
+             ^~~~~~~~~~~~~~~~
+'Finished building: ../src/PLANTBASE.c'
+' '
+'Building target: PLANTBASE.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PLANTBASE_bsp/MB_UC/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PLANTBASE.elf"  ./src/PLANTBASE.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: PLANTBASE.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PLANTBASE.elf  |tee "PLANTBASE.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73380	   1552	  69740	 144672	  23520	PLANTBASE.elf
+'Finished building: PLANTBASE.elf.size'
+' '
+00:57:28 **** Incremental Build of configuration Debug for project PLANTBASE ****
+make all 
+make: Nothing to be done for `all'.
+00:58:24 **** Incremental Build of configuration Debug for project PLANTBASE ****
+make all 
+make: Nothing to be done for `all'.
